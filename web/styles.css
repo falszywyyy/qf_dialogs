@@ -1,0 +1,107 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 13px;
+    width: 520px;
+    height: 155px;
+    left: 50%;
+    bottom: 8.5%;
+    transform: translate(-50%, 0);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 2px;
+    width: 100%;
+    height: auto;
+    gap: 7px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-subtitle {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #ffffffca;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    opacity: 0.85;
+    margin-top: 6px;
+    background: linear-gradient(90deg, rgba(74, 9, 9, 0.2) 0%, #FF5340 49%, rgba(74, 9, 9, 0.2) 100%);
+}
+
+
+.action-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 15px;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 73px;
+    background: rgba(48, 48, 48, 0.6);
+    border: 1px solid #ff534000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.action-box:hover {
+    border-color: #FF5340;
+}
+
+.action-text {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
