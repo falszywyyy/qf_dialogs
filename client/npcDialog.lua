@@ -15,7 +15,7 @@ local function sendDialogNpcSync(npcName, npcQuestion, dialogOptions)
     if not hasCancel then
         table.insert(dialogOptions, {
             id = "cancel",
-            text = exports.ms_carthief:CancelTalk(),
+            text = exports.qf_carthief:CancelTalk() or "None",
             disabled = false
         })
     end

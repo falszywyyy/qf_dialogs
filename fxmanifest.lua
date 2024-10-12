@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-author 'MoreScripts'
-description 'ms_dialog'
+author 'QF Developers'
+description 'qf_dialogs'
 
 client_scripts {
 	'client/*.lua',
